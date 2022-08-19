@@ -110,10 +110,19 @@ aside{
 
 .imagenvelez{
 width: 25rem;
+transition: height 1s, width 1s;
 }
+
+.imagenvelez:hover{
+    top: 20rem;
+    width: 20rem;
+}
+
 
 .imagenzeballos{
  width: 25rem;
+ transition: height 1s, width 1s;
+ 
 
 }
 

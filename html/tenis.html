@@ -10,6 +10,8 @@
 
     <link rel="stylesheet" href="/css/estilofutbol.css" />
     <link rel="shortcut icon" href="/img/marca.jpg" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   </head>
   <body class="gridPadre">
     <header>
@@ -26,7 +28,7 @@
       </ul>
     </nav>
 
-    <section class="sectionUno">
+    <section data-aos="fade-right" class="sectionUno">
         <h3>
           DEL POTRO ANUNCIA SU RETIRO DEL TENIS
         </h3>
@@ -38,7 +40,7 @@
         />
       </section>
   
-      <section class="sectionDos">
+      <section data-aos="fade-left" class="sectionDos">
         <h3>
           FEDERER ES CAMPEÓN DEL OPEN REALIZADO EN MADRID
         </h3>
@@ -69,6 +71,13 @@
   
       <footer class="footer">
         Derechos reservados por Diario Marca - 2022
+
       </footer>
+
+
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
     </body>
   </html>

@@ -10,6 +10,8 @@
 
     <link rel="stylesheet" href="/css/estiloindex.css" />
     <link rel="shortcut icon" href="/img/marca.jpg" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   </head>
   <body class="gridPadre">
     <header>
@@ -30,7 +32,7 @@
 
     </nav>
 
-    <section class="sectionUno">
+    <section data-aos="fade-right" class="sectionUno">
       <h3>BIENVENIDO AL DIARIO MARCA</h3>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti,
@@ -39,7 +41,7 @@
       </p>
     </section>
 
-    <section class="sectionDos">
+    <section data-aos="fade-left" class="sectionDos">
       <h3>¿POR QUE SOMOS EL MEJOR DIARIO DEL PAIS?</h3>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti,
@@ -59,5 +61,11 @@
     <footer class="footer">
       Derechos reservados por Diario Marca - 2022
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+
   </body>
 </html>
