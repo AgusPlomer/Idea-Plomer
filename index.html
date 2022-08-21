@@ -6,44 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>INICIO</title>
 
-    <!-- LINK CSS -->
+    <!-- LINK FAVICON -->
 
-    <link rel="stylesheet" href="/css/estiloindex.css" />
-    <link rel="shortcut icon" href="/img/marca.jpg" type="image/x-icon">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/img/marca.jpg" type="image/x-icon" />
 
+    <!-- LINK LIBRERIAS AOS -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- BOOTSTRAP -->
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+
+    />
+
+      <!-- LINK CSS -->
+
+      <link rel="stylesheet" href="/css/estiloindex.css" />
   </head>
-  <body class="gridPadre">
+
+  <body class="gridPadre container-fluid">
+
     <header>
-      <h1>DIARIO MARCA</h1>
+
+      <h1 class="text-center">DIARIO MARCA</h1>
+
     </header>
 
-
     <h2>NAVEGACIÓN</h2>
-    <nav class="nav">
 
-      <ul>
-        <li><a href="/index.html">INICIO</a></li>
-        <li><a href="/html/futbol.html">FUTBOL</a></li>
-        <li><a href="/html/basquet.html">BASQUET</a></li>
-        <li><a href="/html/tenis.html">TENIS</a></li>
-        <li><a href="/html/hockey.html">HOCKEY</a></li>
-      </ul>
-
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">MARCA</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="/index.html">INICIO</a>
+            <a class="nav-link" href="/html/futbol.html">FUTBOL</a>
+            <a class="nav-link" href="/html/basquet.html">BASQUET</a>
+            <a class="nav-link" href="/html/tenis.html">TENIS</a>
+            <a class="nav-link" href="/html/hockey.html">HOCKEY</a>
+          </div>
+        </div>
+      </div>
     </nav>
 
-    <section data-aos="fade-right" class="sectionUno">
+    <section data-aos="fade-right" class="sectionUno container-fluid">
       <h3>BIENVENIDO AL DIARIO MARCA</h3>
-      <p>
+      <p class="container-fluid">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti,
         nulla dolorem neque cumque optio aliquam nisi veniam suscipit nesciunt
         sit harum. Sequi tempore dolorum dicta rerum rem quaerat dolores quia.
       </p>
     </section>
 
-    <section data-aos="fade-left" class="sectionDos">
+    <section data-aos="fade-left" class="sectionDos container-fluid">
       <h3>¿POR QUE SOMOS EL MEJOR DIARIO DEL PAIS?</h3>
-      <p>
+      <p class="container-fluid">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti,
         nulla dolorem neque cumque optio aliquam nisi veniam suscipit nesciunt
         sit harum. Sequi tempore dolorum dicta rerum rem quaerat dolores quia.
@@ -51,21 +76,30 @@
     </section>
 
     <!-- PUBLICIDAD -->
-    <aside class="aside">
-      <img class="apuestasimagen" src="/img/casaapuestas.jpg" alt="casadeapuestas" />
-      <p class="apuestas">CASA DE APUESTAS
-        INGRESA Y GANA DINERO
-      </p>
+    <aside class="aside container-fluid">
+      <img
+        class="apuestasimagen img-fluid"
+        src="/img/casaapuestas.jpg"
+        alt="casadeapuestas"
+      />
+      <p class="apuestas">CASA DE APUESTAS INGRESA Y GANA DINERO</p>
     </aside>
 
-    <footer class="footer">
-      Derechos reservados por Diario Marca - 2022
-    </footer>
+    <footer class="footer container-fluid">Derechos reservados por Diario Marca - 2022</footer>
+
+    <!-- LIBRERIAS -->
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-      <script>
-        AOS.init();
-      </script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
 
   </body>
 </html>

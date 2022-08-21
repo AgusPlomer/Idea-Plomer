@@ -22,7 +22,7 @@ body{
     text-align: center;
 }
 
-.nav {
+/* .nav {
     background: linear-gradient(to left, #aa4b6b, #6b6b83, #3b8d99);
     grid-area: nav;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -55,7 +55,7 @@ li a{
     text-transform: uppercase;
 
     
-}
+} */
 
 
 
@@ -103,7 +103,7 @@ aside{
 
 .apuestasimagen{
     border: 8px white;
-    transform: scale(1.2,1.0);
+    transform: scale(1.0,1.0);
   
 }
 
